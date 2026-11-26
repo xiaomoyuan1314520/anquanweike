@@ -22,3 +22,54 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# 依赖
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 构建产物
+dist/
+build/
+out/
+*.min.js
+*.map
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 本地密钥 / 配置（重要）
+.env
+.env.*
+*.key
+*.pem
+config.local.*
+*.local.json
+
+# 临时 / 调试文件
+*.tmp
+*.bak
+*.orig
+*.rej
+.cache/
+.temp/
+
+# 测试覆盖
+coverage/
